@@ -1,0 +1,22 @@
+[
+  {
+    "title":"A Walk in the Woods",
+    "path":"video/woods.mp4",
+    "description":"A walk through the woods during a rainy day in New England."
+  },
+  {
+    "title":"Cow Eating Fence",
+    "path":"video/cow.mp4",
+    "description":"Engaging video of a cow eating a fence. Just... captivating, isn't it?"
+  },
+  {
+    "title":"Starlight Scamper",
+    "path":"video/starlightscamper.mp4",
+    "description":"Starlight Scamper: a project built for the Lynda.com course 'HTML5 Canvas and WebGL in Flash Professional CC'."
+  },
+  {
+    "title":"Test Pattern Video",
+    "path":"video/demo.mp4",
+    "description":"This video is just a test pattern with audio tone. Good for testing and not much else!"
+  }
+]

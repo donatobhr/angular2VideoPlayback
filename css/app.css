@@ -1,0 +1,90 @@
+html, body{
+    background: #1e1e1e;
+    color: lightgray;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#playerToolBar{
+    background-color: #464545;
+}
+
+#playerToolBar a{
+    font-size: 1.2rem;
+    color: #b8b8bb;
+}
+
+#playerToolBar .btn{
+    border-radius: 0px;
+    width: 50px;
+}
+
+#playerToolBar .btn:focus{
+    border:none;
+    box-shadow: 0;
+    outline: 0 none;
+}
+
+#progressMeterFull, #progressMeter{
+    cursor: pointer;
+    height: 11px;
+    margin: 0;
+}
+
+#progressMeterFull{
+    background-color: #26344f;
+    position: relative;
+}
+
+#progressMeter{
+    background-color: #5d1f1c;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+}
+
+#thumbScrubber{
+    background-color: #b8b8bb;
+    border: 1px solid #3d3d3d;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    cursor: pointer;
+}
+
+#bigPlayButton{
+    background-color: rgba(0,0,0,0.8);
+    width: 120px;
+    height: 100px;
+    font-size: 3.2em;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#bigPlayButton .fa{
+    display: block;
+    margin-top: 1.5rem;
+}
+
+#videoTitle{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 1.3em;
+    color: whitesmoke;
+    width: 100%;
+    margin: 5px;
+    margin-left: 10px;
+    text-shadow: 1px 1px #333333;
+}
